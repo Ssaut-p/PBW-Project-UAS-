@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #93a78d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+ .logo {
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+.logo h1 {
+    color: #4f5d4f;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    color: #777;
+    font-size: 14px;
+} */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #4f5d4f;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 93, 79, 0.2);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f5d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #3e4b3e;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.register-link a {
+    color: #4f5d4f;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #2e3d2e;
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fdecea;
+    border-radius: 5px;
+    border-left: 4px solid #e74c3c;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: #2ecc71;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: #e8f8ef;
+    border-radius: 5px;
+    border-left: 4px solid #2ecc71;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+    }
+    
+    .logo h1 {
+        font-size: 24px;
+    }
+}
